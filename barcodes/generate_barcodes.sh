@@ -1,0 +1,1 @@
+ nextflow run https://github.com/gp201/Freyja_pathogen_workflow_v2.git -r 'main' -profile mamba -c config.yaml 

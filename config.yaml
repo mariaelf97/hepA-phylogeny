@@ -1,0 +1,16 @@
+params {
+    skip_clade_assignment = true
+    force_overwrite = true
+    tree = "$PWD/tree/final.tree"
+    fasta = "/home/mahmadi/hepA_seqs/mafft_aligned_trimmed.fasta"
+    metadata = "$PWD/metadata/metadata.tsv"
+    strain_column = "accession"
+    date_column = "sample_date"
+    lineage_column = "real_genotype"
+    ref_seq = "/home/mahmadi/hepA_seqs/reference.fasta"
+    iqtree_nucleotide_model = "MFP"
+    clock_filter = 3.0
+    skip_alignment = true
+    barcode_prefix = 'hepA-'
+}
+
